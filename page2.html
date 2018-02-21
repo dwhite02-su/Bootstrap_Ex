@@ -12,16 +12,36 @@
 
 <body>
 	<div class="pos-f-t">
-		<nav class="navbar navbar-dark bg-dark">
-			<a class="navbar-brand" href="#">Navbar</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+		<nav class="navbar navbar-expand-lg navbar-light bg-dark  ">
+			<a class="navbar-brand text-white" href="#">Store</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
 			 aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
+		
+			<div class="collapse navbar-collapse " id="navbarTogglerDemo02">
+				<ul class="navbar-nav ml-auto mt-2 mt-lg-0 ">
+					<li class="nav-item active">
+						<a class="nav-link text-white" href="#">Home
+							<span class="sr-only">(current)</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link  text-muted" href="#">New</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled  text-muted" href="#">Collections</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Search">
+				</form>
+			</div>
 		</nav>
+		
 	</div>
 
-	<div class="container mt-4">
+	<div class="container mt-4 col-sm-10">
 		<div class="alert alert-success" role="alert">
 			<div>
 				<button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -47,42 +67,62 @@
 		
 		<h3>New Arrivals</h3>
 		
-		<div>
-			<img src="http://via.placeholder.com/500/ccc/ffffff?text=Image" alt="Product Image" >
-			<h5>Product <span class="badge badge-success">New!</span></h5>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+		<div class="d-flex flex-column flex-md-row">
+			<div class="d-sm-flex mb-3 ">
+				<div class="col-sm-4 ">
+					<img src="http://via.placeholder.com/500/ccc/ffffff?text=Image" alt="Product Image" class="rounded">
+				</div>
+				<div class="col-sm-8  align-self-center ">
+					<h5>Product <span class="badge badge-success">New!</span> </h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quo, fugiat</p>
+				</div>
+			</div>
+			
+			<div class="d-sm-flex mb-3 ">
+				<div class="col-sm-4 ">
+					<img src="http://via.placeholder.com/500/ccc/ffffff?text=Image" alt="Product Image" class="rounded">
+				</div>
+				<div class="col-sm-8  align-self-center ">
+					<h5>Product
+						<span class="badge badge-success">New!</span>
+					</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quo, fugiat</p>
+				</div>
+			</div>
 		</div>
 
-		<div>
-			<img src="http://via.placeholder.com/500/ccc/ffffff?text=Image" alt="Product Image" >
-			<h5>Product
-				<span class="badge badge-success">New!</span>
-			</h5>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+			
+		<div class="d-flex flex-column flex-md-row">
+			<div class="d-sm-flex mb-3 ">
+				<div class="col-sm-4 ">
+					<img src="http://via.placeholder.com/500/ccc/ffffff?text=Image" alt="Product Image" class="rounded">
+				</div>
+				<div class="col-sm-8  align-self-center ">
+					<h5>Product <span class="badge badge-success">New!</span> </h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quo, fugiat</p>
+				</div>
+			</div>
+			
+			<div class="d-sm-flex mb-3 ">
+				<div class="col-sm-4 ">
+					<img src="http://via.placeholder.com/500/ccc/ffffff?text=Image" alt="Product Image" class="rounded">
+				</div>
+				<div class="col-sm-8  align-self-center ">
+					<h5>Product
+						<span class="badge badge-success">New!</span>
+					</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quo, fugiat</p>
+				</div>
+			</div>
 		</div>
-
-		<div>
-			<img src="http://via.placeholder.com/500/ccc/ffffff?text=Image" alt="Product Image" >
-			<h5>Product
-				<span class="badge badge-success">New!</span>
-			</h5>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-		</div>
-
-		<div>
-			<img src="http://via.placeholder.com/500/ccc/ffffff?text=Image" alt="Product Image" >
-			<h5>Product
-				<span class="badge badge-success">New!</span>
-			</h5>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-		</div>
-
 
 		
+		
+
 		<h3>Fall 2017 Collection</h3>
-		<div class="row ">
-			<div class="col-6">
-				<div class="card">
+		<div class="row">
+			<div class="col-6 col-md-4 col-lg-3 ">
+				<div class="card mb-3">
 					<img class="card-img-top" src="http://via.placeholder.com/500/ccc/ffffff?text=Image" alt="Product Image" />
 					<div class="card-body text-center">
 						<h6 class="card-title">Product</h6>	
@@ -91,8 +131,8 @@
 				</div>
 			</div>
 
-			<div class="col-6">
-				<div class="card">
+			<div class="col-6 col-md-4 col-lg-3 ">
+				<div class="card mb-3">
 					<img class="card-img-top" src="http://via.placeholder.com/500/ccc/ffffff?text=Image" alt="Product Image" />
 					<div class="card-body text-center">
 						<h6 class="card-title">Product</h6>
@@ -101,8 +141,8 @@
 				</div>
 			</div>
 
-			<div class="col-6">
-				<div class="card">
+			<div class="col-6 col-md-4 col-lg-3 ">
+				<div class="card mb-3">
 					<img class="card-img-top" src="http://via.placeholder.com/500/ccc/ffffff?text=Image" alt="Product Image" />
 					<div class="card-body text-center">
 						<h6 class="card-title">Product <span class="badge badge-warning">2 Left!</span> </h6>
@@ -111,8 +151,8 @@
 				</div>
 			</div>
 			
-			<div class="col-6">
-				<div class="card">
+			<div class="col-6 col-md-4 col-lg-3 ">
+				<div class="card mb-3">
 					<img class="card-img-top" src="http://via.placeholder.com/500/ccc/ffffff?text=Image" alt="Product Image" />
 					<div class="card-body text-center">
 						<h6 class="card-title">Product</h6>
@@ -121,8 +161,8 @@
 				</div>
 			</div>
 
-			<div class="col-6">
-				<div class="card">
+			<div class="col-6 col-md-4 col-lg-3 ">
+				<div class="card mb-3">
 					<img class="card-img-top" src="http://via.placeholder.com/500/ccc/ffffff?text=Image" alt="Product Image" />
 					<div class="card-body text-center">
 						<h6 class="card-title">Product</h6>
@@ -131,8 +171,8 @@
 				</div>
 			</div>
 
-			<div class="col-6">
-				<div class="card">
+			<div class="col-6 col-md-4 col-lg-3 ">
+				<div class="card mb-3">
 					<img class="card-img-top" src="http://via.placeholder.com/500/ccc/ffffff?text=Image" alt="Product Image" />
 					<div class="card-body text-center">
 						<h6 class="card-title">Product</h6>
@@ -141,8 +181,8 @@
 				</div>
 			</div>
 			
-			<div class="col-6">
-				<div class="card">
+			<div class="col-6 col-md-4 col-lg-3 ">
+				<div class="card mb-2">
 					<img class="card-img-top" src="http://via.placeholder.com/500/ccc/ffffff?text=Image" alt="Product Image" />
 					<div class="card-body text-center">
 						<h6 class="card-title">Product</h6>
@@ -151,8 +191,8 @@
 				</div>
 			</div>
 
-			<div class="col-6">
-				<div class="card">
+			<div class="col-6 col-md-4 col-lg-3 ">
+				<div class="card mb-2">
 					<img class="card-img-top" src="http://via.placeholder.com/500/ccc/ffffff?text=Image" alt="Product Image" />
 					<div class="card-body text-center">
 						<h6 class="card-title">Product</h6>
@@ -190,8 +230,8 @@
 	</div> <!-- Container -->
 	
 	<div class="footer bg-dark  ">
-		<div class="row justify-content-around">
-			<ul class="list-unstyled  ">
+		<div class="row p-4 justify-content-around">
+			<ul class="list-unstyled col-6 col-md-3 ">
 				<li>
 					<a class="text-white" href="#">Lorem ipsum</a>
 				</li>
@@ -211,30 +251,8 @@
 					<a class="text-white" href="#">Ipsa expedita</a>
 				</li>
 			</ul>
-			<ul class="list-unstyled">
-				<li>
-					<a class="text-white" href="#">Lorem ipsum</a>
-				</li>
-				<li>
-					<a class="text-white" href="#">Minus quia</a>
-				</li>
-				<li>
-					<a class="text-white" href="#">Molestias autem</a>
-				</li>
-				<li>
-					<a class="text-white" href="#">Optio at</a>
-				</li>
-				<li>
-					<a class="text-white" href="#">Nisi voluptates</a>
-				</li>
-				<li>
-					<a class="text-white" href="#">Ipsa expedita</a>
-				</li>
-			</ul>
-		</div>
 
-		<div class="row justify-content-around">
-			<ul class="list-unstyled">
+			<ul class="list-unstyled col-6 col-md-3">
 				<li>
 					<a class="text-white" href="#">Lorem ipsum</a>
 				</li>
@@ -254,7 +272,29 @@
 					<a class="text-white" href="#">Ipsa expedita</a>
 				</li>
 			</ul>
-			<ul class="list-unstyled">
+		
+			<ul class="list-unstyled col-6 col-md-3">
+				<li>
+					<a class="text-white" href="#">Lorem ipsum</a>
+				</li>
+				<li>
+					<a class="text-white" href="#">Minus quia</a>
+				</li>
+				<li>
+					<a class="text-white" href="#">Molestias autem</a>
+				</li>
+				<li>
+					<a class="text-white" href="#">Optio at</a>
+				</li>
+				<li>
+					<a class="text-white" href="#">Nisi voluptates</a>
+				</li>
+				<li>
+					<a class="text-white" href="#">Ipsa expedita</a>
+				</li>
+			</ul>
+
+			<ul class="list-unstyled col-6 col-md-3">
 				<li>
 					<a class="text-white" href="#">Lorem ipsum</a>
 				</li>
